@@ -1,0 +1,197 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Google</title>
+    <style>
+        #viewport{
+            margin: auto;
+            /* display:block; */
+            width: 100%;
+            height: 100%;
+            overflow: scroll;
+        }
+        #header{
+            position: fixed;
+            width: 1500px;
+            height:30px;
+            text-align: right;
+            word-spacing: 20px;
+        }
+        #goole_img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            padding-top: 140px;
+            padding-bottom: 20px;
+        }
+        input{
+            padding: 10px;
+            width: 503px;
+            height:34px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+        }
+        a:link {
+            text-decoration: none;
+            color: rgba(0, 0, 0, 0.87);
+            font-family: arial, sans-serif;
+            font-size: 13px;
+            line-height: 24px;
+            opacity: 0.85;
+            text-decoration-style: solid;
+            vertical-align: middle
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        #squares{
+                width:20px;
+                height: 20px;
+                vertical-align: middle;
+
+        }
+        #button_login{
+            background-color: rgb(66, 133, 244);
+            font-weight: bold;
+            width: 85px;
+            height: 30px;
+            display: inline-block;
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            white-space: nowrap;
+            word-spacing: normal;
+        }
+        #search_input{
+            border-left-color: rgb(185, 185, 185);
+            border-left-style:   display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto; none;
+            border-left-width: 0px;
+            border-right-color: rgb(185, 185, 185);
+            border-right-style: none;
+            border-right-width: 0px;
+            border-top-color: rgb(160, 160, 160);
+            border-top-style: none;
+            border-top-width: 0px;
+            color: rgb(0, 0, 0);
+            z-index: 6;
+            line-height: 34px;
+            font-size: 16px;
+            padding-bottom: 2px;
+            padding-top: 3px;
+            margin-top: -3px;
+            width: 632px;
+        }
+        .bottom_buttons{
+            width:850px;
+            height: 58px;
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+
+        }
+        #butao_mesmo{
+            flex: 0 1 auto;
+            height: 36px;
+            width: 200px;
+            /*cor e efeitos - INICIO*/
+            background-color: rgb(248, 248, 248);
+            background-image: -moz-linear-gradient(rgb(248, 248, 248), rgb(241, 241, 241));
+            border-bottom-color: rgb(198, 198, 198);
+            border-bottom-left-radius: 2px;
+            border-bottom-right-radius: 2px;
+            border-bottom-style: solid;
+            border-bottom-width: 1px;
+            border-image-outset: 0;
+            border-image-repeat: stretch stretch;
+            border-image-slice: 100%;
+            border-image-source: none;
+            border-image-width: 1;
+            border-left-color: rgb(198, 198, 198);
+            border-left-style: solid;
+            border-left-width: 1px;
+            border-right-color: rgb(198, 198, 198);
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-top-color: rgb(198, 198, 198);
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            border-top-style: solid;
+            border-top-width: 1px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px;
+            color: rgb(34, 34, 34);
+            cursor: default;
+            font-family: arial, sans-serif;
+            font-size: 13px;
+            /*cor e efeitos - FINAL*/
+            float: left;
+        }
+        .foot_note{
+            padding-top: 200px;
+            width: 1200px;
+            height: 82px;
+            display: block;
+            position: fixed;
+            color: rgba(0, 0, 0, 0.54);
+            font-family: arial, sans-serif;
+            font-size: 13px;
+            line-height: 24px;
+            margin-left: 30px;
+            padding-left: 27px;
+            visibility: visible;
+            text-decoration: none;
+            word-spacing: 20px;
+        }
+        #links_direita{
+            text-align: right;
+        }
+    </style>
+</head>
+<div id="viewport">
+    <body>
+        <div id="header">
+            <p>
+                <a href="#" text-align="middle"  onclick="alert('Errou!!!')"> Gmail </a>
+                <a href="##"> Imagens </a>
+                <img id="squares" src="https://vikingviolinist.github.io/google_homepage/img/apps.png">
+                <button id="button_login" type="button" onclick="alert('Errou!!!')">Fazer Login</button>
+            </p>
+        </div>
+        <div id="logo">
+            <img id="goole_img" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <div id="search_field">
+            <form>
+                <input id="search_input" type="search" name="googlesearch">
+            </form>
+        </div>
+        <div class="bottom_buttons">
+            <input id="butao_mesmo" value="Pesquisa Google" aria-label="Pesquisa Google" type="submit"  onclick="alert('Errou!!!')">
+            <input id="butao_mesmo" value="Estou com sorte" aria-label="Estou com sorte" type="submit"  onclick="alert('Errou!!!')">
+        </div>
+        <div class="foot_note">
+            <p >Brasil</p>
+            <p>
+                <a onclick="alert('Errou!!!')"> Publicidade</a>
+                <a onclick="alert('Errou!!!')"> Negócios</a>
+                <a onclick="alert('Errou!!!')"> Sobre </a>
+                <span style="display:inline-block; width: 700px;"></span>
+                <a  onclick="alert('Errou!!!')"> Privacidade</a>
+                <a  onclick="alert('Errou!!!')"> Termos</a>
+                <a  onclick="alert('Errou!!!')"> Configurações</a>
+            </p>
+        <div>
+</div>
+</body>
+</html>
