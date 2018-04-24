@@ -115,7 +115,7 @@ a:hover{
     width: 100%;
     bottom: 0;
     text-align: left;
-    font-size: small;
+    font-size: 15px;
     word-spacing: 15px;
     line-height: 40px;
     background-color: #f2f2f2;
@@ -136,12 +136,10 @@ a:hover{
 #foot_note_left{
     border-top: 1px solid #e4e4e4;
     display: inline-block;
-    font-size: 15px;
 }
 #foot_note_right{
     border-top: 1px solid #e4e4e4;
     display: inline-block;
     float: right;
-    font-size: 15px;
     margin-right: 35px;
 }
